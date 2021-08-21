@@ -4,13 +4,13 @@ import 'package:iti_flutter/services/user_services.dart';
 import 'package:iti_flutter/sreens/user_details_page4.dart';
 import 'package:iti_flutter/widget/card_design.dart';
 
-class Page4Http extends StatefulWidget {
+class UserScreen extends StatefulWidget {
 
   @override
-  _Page4HttpState createState() => _Page4HttpState();
+  _UserScreenState createState() => _UserScreenState();
 }
 
-class _Page4HttpState extends State<Page4Http> {
+class _UserScreenState extends State<UserScreen> {
   bool loading = true ;
   List <User> users = [];
  getUserList()async{
